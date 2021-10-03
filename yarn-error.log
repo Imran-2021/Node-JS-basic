@@ -1,0 +1,35 @@
+Arguments: 
+  C:\Downloaded software\node.exe C:\Users\mdimr\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js set version update
+
+PATH: 
+  C:\Users\mdimr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mdimr\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Downloaded software;C:\Program Files\Git\cmd;C:\Users\mdimr\AppData\Local\Microsoft\WindowsApps;C:\Users\mdimr\AppData\Roaming\npm;C:\Users\mdimr\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.17.6
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Release not found: update
+      at C:\Users\mdimr\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:86353:17
+      at Generator.next (<anonymous>)
+      at step (C:\Users\mdimr\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\mdimr\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "lodash": "^4.17.21"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
